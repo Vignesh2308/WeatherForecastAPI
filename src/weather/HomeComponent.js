@@ -10,6 +10,7 @@ class Home extends React.Component{
         return(
             <React.Fragment>
                 <div id='container'>
+                <br /><br /> <br />
                 <Header />
                 <Search />
                 <Footer />
