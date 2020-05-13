@@ -40,7 +40,7 @@ submit =(e) =>{
 }
 
 weather(value){
-    fetch('http://api.openweathermap.org/data/2.5/weather?q='+value+'&units=metric&appid=001b0f58045147663b1ea518d34d88b4')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+value+'&units=metric&appid=001b0f58045147663b1ea518d34d88b4')
     .then(res => res.json())
     .then(result =>{
         console.log(result);
